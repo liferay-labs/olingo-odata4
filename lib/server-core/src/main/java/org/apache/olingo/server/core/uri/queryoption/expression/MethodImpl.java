@@ -69,6 +69,7 @@ public class MethodImpl implements Method {
       break;
     case YEAR:
     case MONTH:
+    case WEEK:
     case DAY:
     case HOUR:
     case MINUTE:
