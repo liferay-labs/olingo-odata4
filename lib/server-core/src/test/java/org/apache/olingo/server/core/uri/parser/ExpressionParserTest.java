@@ -182,6 +182,7 @@ public class ExpressionParserTest {
     parseMethod(TokenKind.TrimMethod, stringValue);
     parseMethod(TokenKind.YearMethod, dateValue);
     parseMethod(TokenKind.MonthMethod, dateValue);
+    parseMethod(TokenKind.WeekMethod, dateTimeOffsetValue);
     parseMethod(TokenKind.DayMethod, dateValue);
     parseMethod(TokenKind.HourMethod, dateTimeOffsetValue);
     parseMethod(TokenKind.MinuteMethod, dateTimeOffsetValue);
