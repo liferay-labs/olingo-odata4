@@ -26,6 +26,7 @@
   <artifactId>odata-server-api</artifactId>
   <packaging>bundle</packaging>
   <name>${project.artifactId}</name>
+  <version>4.4.0.1-SNAPSHOT</version>
 
   <parent>
     <groupId>org.apache.olingo</groupId>
@@ -38,7 +39,7 @@
     <dependency>
       <groupId>org.apache.olingo</groupId>
       <artifactId>odata-commons-api</artifactId>
-      <version>${project.version}</version>
+      <version>4.4.0</version>
     </dependency>
     <dependency>
       <groupId>javax.servlet</groupId>
