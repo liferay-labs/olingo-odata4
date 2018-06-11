@@ -153,6 +153,7 @@ public class ExpressionParser {
     temp.put(TokenKind.ToupperMethod, MethodKind.TOUPPER);
     temp.put(TokenKind.TrimMethod, MethodKind.TRIM);
     temp.put(TokenKind.YearMethod, MethodKind.YEAR);
+    temp.put(TokenKind.WeekMethod, MethodKind.WEEK);
 
     tokenToMethod = Collections.unmodifiableMap(temp);
   }
@@ -463,6 +464,7 @@ public class ExpressionParser {
       break;
     case YEAR:
     case MONTH:
+    case WEEK:
     case DAY:
       ParserHelper.bws(tokenizer);
       final Expression dateParameter = parseExpression();

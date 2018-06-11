@@ -35,6 +35,7 @@ public enum MethodKind {
   CONCAT("concat"),
   YEAR("year"),
   MONTH("month"),
+  WEEK("week"),
   DAY("day"),
   HOUR("hour"),
   MINUTE("minute"),
