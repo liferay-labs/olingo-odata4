@@ -25,7 +25,7 @@
 	<groupId>my.group.id</groupId>
 	<artifactId>DemoService-QueryOptions-F</artifactId>
 	<packaging>war</packaging>
-	<version>4.4.0</version>
+	<version>4.4.0.1-SNAPSHOT</version>
 
 	<name>${project.artifactId} Webapp</name>
 
